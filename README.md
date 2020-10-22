@@ -27,14 +27,9 @@ A django personal gallery application that displays my photos for others to see.
 * Install all the requirements found in requirements file.
 * Access the live site using the local host provided
 
-### Prerequisites
-1. [Python3.6](https://www.python.org/downloads/)
-)
-2. [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
-3. [Pip](https://pip.pypa.io/en/stable/installing/)
 #### Clone the Repo and rename it to suit your needs.
 ```bash
-git clone https://github.com/Roychela/DJANGO-GALLERY.git
+git clone https://github.com/Amwata-Albert/Gallery
 ```
 #### Initialize git and add the remote repository
 ```bash
@@ -77,7 +72,7 @@ python3.6 manage.py makemigrations && python3.6 manage.py migrate
 
 #### Run the app
 ```bash
-python3.6 manage.py runserver
+python3.8 manage.py runserver
 ```
 Open [localhost:8000](http://127.0.0.1:8000/)
 
@@ -85,11 +80,11 @@ Open [localhost:8000](http://127.0.0.1:8000/)
 None
 
 ## TECHNOLOGIES
-* Python3.6
+* Python3.8
 * Django
 * Javascript
 * Css
 * Scss
 
 ## LICENSE
-[MIT](https://github.com/Roychela/DJANGO-GALLERY/blob/master/LICENSE)
+[MIT](https://github.com/Amwata-Albert/Gallery)
