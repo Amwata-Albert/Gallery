@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 # Create your models here.
 class Location(models.Model):
@@ -35,7 +36,7 @@ class Image(models.Model):
     image_description = models.TextField()
     location = models.ForeignKey(Location)
     category = models.ForeignKey(Category)
-    image = models.ImageField(upload_to = 'imgs/')
+    image = CloudinaryField('image')
 
     def save_image(self):
         self.save()
